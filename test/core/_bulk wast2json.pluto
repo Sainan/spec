@@ -1,0 +1,5 @@
+for io.listdir(".") as file do
+	if file:sub(-5) == ".wast" then
+		os.execute("wasmtime --dir . wast2json "..file)
+	end
+end
