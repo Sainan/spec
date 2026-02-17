@@ -8,8 +8,7 @@
 
   (table $t1 2 funcref)
   (table $t2 2 externref)
-  (elem (table $t1) (i32.const 1) func $dummy)
-  (func $dummy)
+  (elem (table $t1) (i32.const 1) func 0)
 
   (func (export "init") (param $r externref)
     (table.set $t2 (i32.const 1) (local.get $r))
