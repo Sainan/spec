@@ -1,0 +1,3 @@
+{"source_filename": ".\u005cbinary_leb128_64.wast",
+ "commands": [
+  {"type": "assert_malformed", "line": 2, "filename": "binary_leb128_64.0.wasm", "text": "integer too large", "module_type": "binary"}]}
