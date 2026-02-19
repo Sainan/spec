@@ -1,0 +1,5 @@
+for io.listdir(".") as file do
+	if file:sub(-5) == ".wast" then
+		os.execute("wast2json --enable-multi-memory "..file)
+	end
+end
