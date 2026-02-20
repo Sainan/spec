@@ -17,6 +17,7 @@ soup wast data.json
 soup wast elem.json
 soup wast endianness.json
 soup wast exports.json
+soup wast extended-const.json
 soup wast f32.json
 soup wast f32_bitwise.json
 soup wast f32_cmp.json
