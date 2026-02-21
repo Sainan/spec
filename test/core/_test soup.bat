@@ -63,6 +63,8 @@ soup wast ref_func.json
 soup wast ref_is_null.json
 soup wast ref_null.json
 soup wast return.json
+soup wast return_call.json
+soup wast return_call_indirect.json
 soup wast select.json
 soup wast skip-stack-guard-page.json
 soup wast stack.json
