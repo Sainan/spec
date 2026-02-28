@@ -164,4 +164,11 @@ cd multi-memory
 ..\soup wast traps0.json
 cd ..
 
+cd exceptions
+..\soup wast tag.json
+..\soup wast throw.json
+..\soup wast throw_ref.json
+..\soup wast try_table.json
+cd ..
+
 pause
