@@ -92,6 +92,66 @@ soup wast utf8-import-field.json
 soup wast utf8-import-module.json
 soup wast utf8-invalid-encoding.json
 
+cd simd
+..\soup wast simd_address.json
+..\soup wast simd_align.json
+..\soup wast simd_bit_shift.json
+..\soup wast simd_bitwise.json
+..\soup wast simd_boolean.json
+..\soup wast simd_const.json
+..\soup wast simd_conversions.json
+..\soup wast simd_f32x4.json
+..\soup wast simd_f32x4_arith.json
+..\soup wast simd_f32x4_cmp.json
+..\soup wast simd_f32x4_pmin_pmax.json
+..\soup wast simd_f32x4_rounding.json
+..\soup wast simd_f64x2.json
+..\soup wast simd_f64x2_arith.json
+..\soup wast simd_f64x2_cmp.json
+..\soup wast simd_f64x2_pmin_pmax.json
+..\soup wast simd_f64x2_rounding.json
+..\soup wast simd_i16x8_arith.json
+..\soup wast simd_i16x8_arith2.json
+..\soup wast simd_i16x8_cmp.json
+..\soup wast simd_i16x8_extadd_pairwise_i8x16.json
+..\soup wast simd_i16x8_extmul_i8x16.json
+..\soup wast simd_i16x8_q15mulr_sat_s.json
+..\soup wast simd_i16x8_sat_arith.json
+..\soup wast simd_i32x4_arith.json
+..\soup wast simd_i32x4_arith2.json
+..\soup wast simd_i32x4_cmp.json
+..\soup wast simd_i32x4_dot_i16x8.json
+..\soup wast simd_i32x4_extadd_pairwise_i16x8.json
+..\soup wast simd_i32x4_extmul_i16x8.json
+..\soup wast simd_i32x4_trunc_sat_f32x4.json
+..\soup wast simd_i32x4_trunc_sat_f64x2.json
+..\soup wast simd_i64x2_arith.json
+..\soup wast simd_i64x2_arith2.json
+..\soup wast simd_i64x2_cmp.json
+..\soup wast simd_i64x2_extmul_i32x4.json
+..\soup wast simd_i8x16_arith.json
+..\soup wast simd_i8x16_arith2.json
+..\soup wast simd_i8x16_cmp.json
+..\soup wast simd_i8x16_sat_arith.json
+..\soup wast simd_int_to_int_extend.json
+..\soup wast simd_lane.json
+..\soup wast simd_linking.json
+..\soup wast simd_load.json
+..\soup wast simd_load16_lane.json
+..\soup wast simd_load32_lane.json
+..\soup wast simd_load64_lane.json
+..\soup wast simd_load8_lane.json
+..\soup wast simd_load_extend.json
+..\soup wast simd_load_splat.json
+..\soup wast simd_load_zero.json
+..\soup wast simd_splat.json
+..\soup wast simd_store.json
+..\soup wast simd_store16_lane.json
+..\soup wast simd_store32_lane.json
+..\soup wast simd_store64_lane.json
+..\soup wast simd_store8_lane.json
+cd ..
+
 cd memory64
 ..\soup wast address64.json
 ..\soup wast align64.json
