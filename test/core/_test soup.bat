@@ -92,6 +92,10 @@ soup wast utf8-import-field.json
 soup wast utf8-import-module.json
 soup wast utf8-invalid-encoding.json
 
+cd custom-page-sizes
+..\soup wast custom-page-sizes.json
+cd ..
+
 cd simd
 ..\soup wast simd_address.json
 ..\soup wast simd_align.json
