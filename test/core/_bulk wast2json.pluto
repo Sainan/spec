@@ -1,5 +1,5 @@
 for io.listdir(".") as file do
 	if file:sub(-5) == ".wast" then
-		os.execute("wast2json --enable-extended-const --enable-tail-call --enable-memory64 "..file)
+		os.execute("wast2json --enable-extended-const --enable-tail-call --enable-memory64 --enable-exceptions "..file)
 	end
 end
